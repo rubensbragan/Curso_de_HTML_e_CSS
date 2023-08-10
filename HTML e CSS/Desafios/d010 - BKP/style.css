@@ -1,0 +1,107 @@
+
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf');
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+    text-align: center;
+    margin: 0px;
+}
+
+header {
+background-image: linear-gradient(to bottom, rgb(36, 180, 36), rgb(1, 78, 1));
+color: white;
+margin: 0px;
+padding: 25px 0px 0px 0px;
+background
+
+}
+
+nav {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 0px 10px;
+    }
+
+nav > a:hover {
+    text-decoration: underline;
+    background-color: rgb(48, 124, 48);
+    padding: 10px 10px 0px 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: white;
+    margin: 0px 30px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px 0px 15px 0px;
+    padding: 15px;
+    font-family: idroid, sans-serif;
+    color: darkgreen;
+    text-align: left;
+}
+
+h3.subtitulo {
+    margin: 20px;
+       font-family: idroid, sans-serif;
+       background-image: linear-gradient(to right, rgb(223, 241, 223), white);
+       color: darkgreen;
+       text-align: left;
+
+}
+
+h3#extra{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+section {
+    background-color: rgb(205, 250, 205);
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.377);
+}
+
+section > article {
+    margin: 15px;
+    text-align: justify;
+}
+
+section > div {
+    display: inline-block;
+    margin: 0px;
+    height: 150px;
+    width: 250px;
+}
+
+div {
+    text-align: justify;
+    margin: 20px;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
